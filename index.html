@@ -8,27 +8,23 @@
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Data Science: For Fun And For Profit</title>
-    
-    <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-17073322-1']);
-          _gaq.push(['_setDomainName', 'none']);
-          _gaq.push(['_setAllowLinker', true]);
-          _gaq.push(['_trackPageview']);
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-105998856-2', 'auto');
+    ga('send', 'pageview');
     </script>
-    
+
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
     <meta name="author" content="Bartek Szopka" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     <link href="css/impress-lukas.css" rel="stylesheet" />
-    
+
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
@@ -47,10 +43,10 @@
         <h2>For Fun And For Profit</h2>
         <q>@lukasvermeer<br />
         <a href="http://www.lukasvermeer.nl/datascience">lukasvermeer.nl/datascience</a></q>
-        <!-- <div id="qr"><a href="http://bit.ly/xc_data "><img src="qr.png" /><br /> 
+        <!-- <div id="qr"><a href="http://bit.ly/xc_data "><img src="qr.png" /><br />
         bit.ly/xc_data</a></div> -->
     </div>
-    
+
     <div id="questions" class="step creed" data-x="-1900" data-y="200" data-rotate="90" data-scale="3">
         <h1>Questions?</h1>
         <p>Presentations often end with this slide.</p>
@@ -63,7 +59,7 @@
         <p>I am not one of those presenters.</p>
     </div>
 
-<!-- 
+<!--
     <div id="ask" class="step" data-x="-2100" data-y="-3200" data-rotate="270" data-scale=".1">
         <p>But please do <b class="ask">ask</b>.</p>
         <p>I <b class="love">love</b> questions.</p>
@@ -76,7 +72,7 @@
         <blockquote class="twitter-tweet"><p>In Data Science, 80% of time spent prepare data, 20% of time spent complain about need for prepare data.</p>&mdash; Big Data Borat (@BigDataBorat) <a href="https://twitter.com/BigDataBorat/status/306596352991830016">February 27, 2013</a></blockquote>
         <blockquote class="twitter-tweet"><p>Data scientist sexiest job of 21 century, I find website say $9,95 unlimited data scientist photos, I should buying?</p>&mdash; Big Data Borat (@BigDataBorat) <a href="https://twitter.com/BigDataBorat/status/257869435287785473">October 15, 2012</a></blockquote>
         <blockquote class="twitter-tweet"><p><a href="https://twitter.com/search/%23bigdata">#bigdata</a> scientist motto: Nothing worth do is NP-Easy</p>&mdash; Big Data Borat (@BigDataBorat) <a href="https://twitter.com/BigDataBorat/status/235754459685343233">August 15, 2012</a></blockquote>
-        <script async src="js/twitter.widgets.js" charset="utf-8"></script>    
+        <script async src="js/twitter.widgets.js" charset="utf-8"></script>
         </center>
     </div>
 -->
@@ -87,20 +83,20 @@
         <img src="datascience.png" />
         </center>
     </div>
-    
+
     <div id="sciencewithoutdata" class="step" data-x="200" data-y="-4200" data-rotate="0" data-scale="1.27">
         <p>If you’re not using</p>
         <p><b>data</b></p>
         <p class="proper">is it really proper</p>
         <p><b class="science">science?</b></p>
-    </div>  
+    </div>
 
-    
+
     <div id="science" class="step" data-x="1900" data-y="-4200" data-rotate="0" data-scale="3">
         <p>What is <b>science?</b></p>
         <p class="recap">*a quick recap</p>
     </div>
-    
+
     <div id="scientificmethod" class="step" data-x="3900" data-y="-4200" data-rotate="0" data-scale="2">
         Question<br />
         Hypothesis<br />
@@ -116,31 +112,31 @@
         "Can you tell me how science works?"<br />
         [insert results here]<br />
     </div>
-    
+
     <div id="badscience" class="step" data-x="6700" data-y="-4200" data-rotate="0" data-scale="3">
         <p>Was this proper <b>science?</b></p>
     </div>
-    
+
     <div id="notscience" class="step" data-x="9100" data-y="-4250" data-rotate="-90" data-scale="1">
         <p>Of course not!</p>
         <p><b>But why?</b></p>
-    </div>  
+    </div>
 
     <div id="whatproblem" class="step" data-x="9192" data-y="-4438" data-rotate="0" data-scale=".1">
         <p>Was science the problem,</p>
         <p>or was I <b>doing it wrong?</b></p>
-    </div>  
+    </div>
 
     <div id="scienceiseasy" class="step" data-x="8300" data-y="-4100" data-rotate="90" data-scale="1">
         <p>Science is easy;</p>
         <p><b>good science</b></p>
         <p>is very difficult.</p>
-    </div>  
+    </div>
 
     <div id="notscale" class="step creed" data-x="8285" data-y="-4088" data-rotate="0" data-scale=".05">
         <p>This is not a problem of</p>
         <p><b>scale.</b></p>
-    </div>  
+    </div>
 
    <div id="gold" class="step" data-x="-300" data-y="-3100" data-scale="2">
             <h1>randomized</h1>
@@ -305,9 +301,9 @@
         <b><i>p</i> <span style="color:gray;">&</span> P(<i>A</i>)</b>
         <b class="smallerps">presentation <span style="color:gray;"> and </span> profit</b>
     </div>
-    
+
     <div id="overview" class="step" data-x="3500" data-y="-1300" data-scale="12"></div>
-    
+
     <div id="references" class="step" data-x="-2520" data-y="-1500" data-scale="0.5">
         <b>References:</b>
         <ul>
@@ -324,7 +320,7 @@
     </div>
 </div>
 <script>
-if ("ontouchstart" in document.documentElement) { 
+if ("ontouchstart" in document.documentElement) {
     document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
 }
 </script>
@@ -342,11 +338,11 @@ if ("ontouchstart" in document.documentElement) {
     $(document).ready(function() {
         $(document).on('impress:stepenter', function(e) {
             var currentSlide = $(e.target).attr('id');
- 
+
             if (currentSlide === 'simulation') {
                 //$("#simframe").attr("src", "significance/index.html");
             }
-            
+
             if (currentSlide === 'abtestingexample') {
                 a = 100;
                 b = 100;
@@ -355,7 +351,7 @@ if ("ontouchstart" in document.documentElement) {
             }
         });
     });
-    
+
     function adjust_bars() {
         a += (Math.random()*2 - 1);
         b += (Math.random()*2 - 1);
@@ -368,7 +364,7 @@ if ("ontouchstart" in document.documentElement) {
         steps--;
         if (steps > 0) { setInterval(function() {adjust_bars()}, 100); }
     }
-    
+
     function runbasket() {
         if (basnum == 100) { $("#basket1").text("bread"); }
         if (basnum == 200) { $("#basket2").text("milk"); }
@@ -380,7 +376,7 @@ if ("ontouchstart" in document.documentElement) {
         if (basnum <= 100) { $("#basket1").text(basket[Math.ceil(Math.random()*basket.length)]); }
         if (basnum <= 200) { $("#basket2").text(basket[Math.ceil(Math.random()*basket.length)]); }
         if (basnum <= 300) { $("#basket3").text(basket[Math.ceil(Math.random()*basket.length)]); }
-        if (basnum <= 300) { 
+        if (basnum <= 300) {
             window.setTimeout('runbasket()', 25);
         }
         else {basnum = 1;}
