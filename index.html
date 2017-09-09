@@ -1,0 +1,390 @@
+<!doctype html>
+
+<!-- I know this html, css and js is terrible. I was in a hurry. Please don't hold it against me. :-) -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Data Science: For Fun And For Profit</title>
+    
+    <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-17073322-1']);
+          _gaq.push(['_setDomainName', 'none']);
+          _gaq.push(['_setAllowLinker', true]);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+    </script>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress-lukas.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+    <div id="leader" class="step slide" data-x="-2000" data-y="-1500" data-scale="1">
+        <iframe src="snake/index.html" width="100%" height="100%"></iframe>
+        <h1>Data Science</h1>
+        <h2>For Fun And For Profit</h2>
+        <q>@lukasvermeer<br />
+        <a href="http://www.lukasvermeer.nl/datascience">lukasvermeer.nl/datascience</a></q>
+        <!-- <div id="qr"><a href="http://bit.ly/xc_data "><img src="qr.png" /><br /> 
+        bit.ly/xc_data</a></div> -->
+    </div>
+    
+    <div id="questions" class="step creed" data-x="-1900" data-y="200" data-rotate="90" data-scale="3">
+        <h1>Questions?</h1>
+        <p>Presentations often end with this slide.</p>
+        <p>This is not one of those presentations.</p>
+    </div>
+
+    <div id="question" class="step creed" data-x="-2100" data-y="-3200" data-rotate="270" data-scale="3">
+        <h1>Questions!</h1>
+        <p>Presenters will often try to give you answers.</p>
+        <p>I am not one of those presenters.</p>
+    </div>
+
+<!-- 
+    <div id="ask" class="step" data-x="-2100" data-y="-3200" data-rotate="270" data-scale=".1">
+        <p>But please do <b class="ask">ask</b>.</p>
+        <p>I <b class="love">love</b> questions.</p>
+    </div>
+
+    <div id="borat" class="step" data-x="-800" data-y="-4200" data-rotate="0" data-scale="1">
+        <p>What is Data Science?</p>
+        <center>
+        <blockquote class="twitter-tweet"><p>Data Science is 99% preparation, 1% misinterpretation.</p>&mdash; Big Data Borat (@BigDataBorat) <a href="https://twitter.com/BigDataBorat/status/324892846685564930">April 18, 2013</a></blockquote>
+        <blockquote class="twitter-tweet"><p>In Data Science, 80% of time spent prepare data, 20% of time spent complain about need for prepare data.</p>&mdash; Big Data Borat (@BigDataBorat) <a href="https://twitter.com/BigDataBorat/status/306596352991830016">February 27, 2013</a></blockquote>
+        <blockquote class="twitter-tweet"><p>Data scientist sexiest job of 21 century, I find website say $9,95 unlimited data scientist photos, I should buying?</p>&mdash; Big Data Borat (@BigDataBorat) <a href="https://twitter.com/BigDataBorat/status/257869435287785473">October 15, 2012</a></blockquote>
+        <blockquote class="twitter-tweet"><p><a href="https://twitter.com/search/%23bigdata">#bigdata</a> scientist motto: Nothing worth do is NP-Easy</p>&mdash; Big Data Borat (@BigDataBorat) <a href="https://twitter.com/BigDataBorat/status/235754459685343233">August 15, 2012</a></blockquote>
+        <script async src="js/twitter.widgets.js" charset="utf-8"></script>    
+        </center>
+    </div>
+-->
+
+    <div id="strata" class="step" data-x="-800" data-y="-4200" data-rotate="0" data-scale="1">
+        <p>What is Data Science?</p>
+        <center>
+        <img src="datascience.png" />
+        </center>
+    </div>
+    
+    <div id="sciencewithoutdata" class="step" data-x="200" data-y="-4200" data-rotate="0" data-scale="1.27">
+        <p>If you’re not using</p>
+        <p><b>data</b></p>
+        <p class="proper">is it really proper</p>
+        <p><b class="science">science?</b></p>
+    </div>  
+
+    
+    <div id="science" class="step" data-x="1900" data-y="-4200" data-rotate="0" data-scale="3">
+        <p>What is <b>science?</b></p>
+        <p class="recap">*a quick recap</p>
+    </div>
+    
+    <div id="scientificmethod" class="step" data-x="3900" data-y="-4200" data-rotate="0" data-scale="2">
+        Question<br />
+        Hypothesis<br />
+        Prediction<br />
+        Experiment<br />
+        Analysis<br />
+    </div>
+
+    <div id="scientificmethodexample" class="step" data-x="4600" data-y="-4200" data-rotate="0" data-scale="2">
+        Do people understand science?<br />
+        Everybody in this audience now does.<br />
+        Anyone I ask here will know.<br />
+        "Can you tell me how science works?"<br />
+        [insert results here]<br />
+    </div>
+    
+    <div id="badscience" class="step" data-x="6700" data-y="-4200" data-rotate="0" data-scale="3">
+        <p>Was this proper <b>science?</b></p>
+    </div>
+    
+    <div id="notscience" class="step" data-x="9100" data-y="-4250" data-rotate="-90" data-scale="1">
+        <p>Of course not!</p>
+        <p><b>But why?</b></p>
+    </div>  
+
+    <div id="whatproblem" class="step" data-x="9192" data-y="-4438" data-rotate="0" data-scale=".1">
+        <p>Was science the problem,</p>
+        <p>or was I <b>doing it wrong?</b></p>
+    </div>  
+
+    <div id="scienceiseasy" class="step" data-x="8300" data-y="-4100" data-rotate="90" data-scale="1">
+        <p>Science is easy;</p>
+        <p><b>good science</b></p>
+        <p>is very difficult.</p>
+    </div>  
+
+    <div id="notscale" class="step creed" data-x="8285" data-y="-4088" data-rotate="0" data-scale=".05">
+        <p>This is not a problem of</p>
+        <p><b>scale.</b></p>
+    </div>  
+
+   <div id="gold" class="step" data-x="-300" data-y="-3100" data-scale="2">
+            <h1>randomized</h1>
+            <h1>controlled</h1>
+            <h1>experiments</h1>
+            <p>the gold standard for empirical science</p>
+    </div>
+
+   <div id="abtesting" class="step" data-x="-300" data-y="-2100" data-scale="2">
+        <p><b>A|B</b></p>
+        <p>testing</p>
+    </div>
+
+    <div id="abtestingexample" class="step" data-x="-300" data-y="-1800" data-scale="2">
+        <div id="a"></div>
+        <div id="x"></div>
+        <div id="b"></div>
+    </div>
+
+    <div id="patterns" class="step" data-x="-300" data-y="-800" data-scale="2">
+        <b>Humans excel at pattern recognition.</b>
+        <p>We even find them where there are none to be found.</p>
+    </div>
+
+    <div id="significance" class="step" data-x="-300" data-y="-100" data-scale="2">
+        <b>Significance can help.</b>
+        <p>But it is no panacea.</p>
+    </div>
+
+    <div id="modata" class="step" data-x="-300" data-y="900" data-scale="2">
+        <b>Mo' data. Mo' significant results.</b>
+        <p>The more we look, the more we see.</p>
+        <br />
+        <img src="momoney.png" width="800px";/>
+    </div>
+
+    <div id="simulation" class="step" data-x="2100" data-y="-3450" data-scale="3">
+        <iframe id="simframe" src="significance/index.html" width="800px" height="700px" scrolling="no"></iframe>
+    </div>
+
+    <div id="emergence" class="step" data-x="4200" data-y="-3350" data-scale="2">
+        <b>Not all patterns are in the data.</b>
+        <p>Some emerge from the way data is analysed.</p>
+    </div>
+
+    <div id="pi" class="step" data-x="4200" data-y="-2200" data-scale="3">
+        <iframe id="piframe" src="pi/index.html" width="800px" height="400px" scrolling="no"></iframe>
+    </div>
+
+    <div id="sailorsimpson" class="step" data-x="6200" data-y="-3360" data-scale="2">
+        <b>Simpson's Paradox.</b>
+        <p>Why sailors are more likely to drown whilst wearing a life-jacket than without.</p>
+    </div>
+
+    <div id="simpsonweek1" class="step simpsonweek" data-x="5600" data-y="-2460" data-scale=".5">
+        <p><b>Week 1</b>: Cautious beginnings.</p>
+        <p><i>Base variant 99% - Treatment 1%.</i></p>
+        <div id="a" class="red variant" style="height: 300px;"><span>0,050%<p>49.500 / 990.000</p></span></div>
+        <div id="x" class="bar">&nbsp;</div>
+        <div id="b" class="green variant" style="height: 330px;"><span>0,055%<p>550 / 10.000</p></span></div>
+        <div class="pval" style="width: 800px;">data from one week - green wins with p = 0.023</div>
+        <div class="axis">total conversion rate</div>
+    </div>
+
+    <div id="simpsonweek2" class="step simpsonweek" data-x="6200" data-y="-2460" data-scale=".5">
+        <p><b>Week 2</b>: Ramp up the new thing!</p>
+        <p><i>Base variant 50% - Treatment 50%.</i></p>
+        <div id="a" class="red variant" style="height: 278px;"><span>0,047%<p>69.500 / 1.490.000</p></span></div>
+        <div id="x" class="bar">&nbsp;</div>
+        <div id="b" class="green variant" style="height: 265px;"><span>0,044%<p>22.550 / 510.000</p></span></div>
+        <div class="pval" style="width: 800px;">data from two weeks - red wins with p < 0.001</div>
+        <div class="axis">total conversion rate</div>
+    </div>
+
+    <div id="simpsonreversed" class="step" data-x="5900" data-y="-2360" data-scale="1">
+        <br /><br /><br /><br /><br /><b>Wait. Did that trend just reverse!?</b>
+        <p>Or are we holding it wrong?</p>
+    </div>
+
+    <div id="simpsonweek3" class="step simpsonweek" data-x="6800" data-y="-2460" data-scale=".5">
+        <p><b>Week 2</b>: Excluding data week 1.</p>
+        <p><i>Global conversion trending downwards.</i></p>
+        <div id="a" class="red variant" style="height: 240px;"><span>0,04%<p>20.000 / 500.000</p></span></div>
+        <div id="x" class="bar">&nbsp;</div>
+        <div id="b" class="green variant" style="height: 265px;"><span>0,044%<p>22.000 / 500.000</p></span></div>
+        <div class="pval" style="width: 800px;">data from one week - green wins with p < 0.001</div>
+        <div class="axis">total conversion rate</div>
+    </div>
+
+    <div id="bwins" class="step" data-x="6800" data-y="-2300" data-scale=".5">
+        <br /><br /><br /><br /><br /><b>Green consistently beat red by 10%.</b>
+        <p>In the real world, you are unlikely to be that lucky.</p>
+    </div>
+
+    <div id="simpson" class="step" data-x="6200" data-y="-1750" data-scale="2">
+        <b>Simpson's Paradox is lurking.</b>
+        <p>Trends can disappear when groups are combined. There are always more groups.</p>
+        <i>(Sailors are more likely to wear life-jackets in bad weather.)</i>
+    </div>
+
+
+<!--
+    <div id="missingpatterns" class="step" data-x="8300" data-y="-3350" data-scale="2">
+        <b>Humans suck at pattern recognition.</b>
+        <p>Implicit assumptions frequently cloud our judgement.</p>
+    </div>
+
+    <div id="benford" class="step" data-x="8300" data-y="-2100" data-scale="3">
+        <iframe id="benfordframe" src="benford/index.html" width="800px" height="600px" scrolling="no"></iframe>
+    </div>
+-->
+    <div id="predictionprofit" class="step" data-x="8600" data-y="-3100" data-scale="2">
+        <ol>
+            <li>Prediction.</li>
+            <li>???????</li>
+            <li>PROFIT!</li>
+        </ol>
+    </div>
+
+    <div id="basket" class="step" data-x="8600" data-y="-1700" data-scale="2">
+        <h1>Supermarket Shopping Basket Decision Tree Predictor 2.0&trade;</h1>
+        <br />
+        <div class="basketinput">
+            <b>Customer data:</b><br />
+            <ol>
+                <li>Sex: <input id="input1"></input></li>
+                <li>Age: <input id="input2"></input></li>
+                <li>Hair: <input id="input3"></input></li>
+            </ol>
+            &gt; <a id="basketexecute" onClick="runbasket();">execute</a>
+        </div>
+        <div class="basketresults">
+            <b>Model output:</b>
+            <ol>
+                <li id="basket1">???????</li>
+                <li id="basket2">???????</li>
+                <li id="basket3">???????</li>
+            </ol>
+            <i id="basketacc"></i>
+        </div>
+    </div>
+
+    <div id="profitprediction" class="step" data-x="8600" data-y="-650" data-scale="2">
+        <b>Some predictions are pointless.</b>
+        <p>Profit does not automatically follow from knowing what lies ahead.</p>
+    </div>
+
+    <div id="proxy" class="step" data-x="8600" data-y="-50" data-scale="2">
+        <b>Do not over optimize for a proxy.</b>
+        <p>Business specific domain knowledge is not a luxury. Focus on the money.</p>
+    </div>
+
+    <div id="recommended" class="step" data-x="8600" data-y="900" data-scale="2">
+        <b>"Nothing worth do is NP-Easy."</b>
+        <p style="text-align: right;color:gray;">@bigdataborat</p>
+        <br />
+        <img src="recommended.png" width="800px";/>
+    </div>
+
+    <div id="thetwops" class="step" data-x="4200" data-y="350" data-scale="5">
+        <p>The four P's of Data Science.</p>
+        <b><i>p</i> <span style="color:gray;">&</span> P(<i>A</i>)</b>
+        <b class="smallerps">presentation <span style="color:gray;"> and </span> profit</b>
+    </div>
+    
+    <div id="overview" class="step" data-x="3500" data-y="-1300" data-scale="12"></div>
+    
+    <div id="references" class="step" data-x="-2520" data-y="-1500" data-scale="0.5">
+        <b>References:</b>
+        <ul>
+            <li><a href="http://www.lukasvermeer.nl">Lukas Vermeer</a></li>
+            <li><a href="http://lukasvermeer.wordpress.com/">Forever Learning</a></li>
+            <li><a href="http://www.lukasvermeer.nl/projects/snake/">Project Snake</a> (<a href="http://lukasvermeer.wordpress.com/2010/12/17/snakes-on-a-two-dimensional-plane/">details</a>)</li>
+            <li><a href="http://www.lukasvermeer.nl/projects/pi/">Project Pi</a> (<a href="http://lukasvermeer.wordpress.com/2010/05/06/estimating-pi/">details</a>)</li>
+            <li><a href="http://strata.oreilly.com/2013/06/theres-more-than-one-kind-of-data-scientist.html">More Than One Kind of Data Scientist</a></li>
+            <li><a href="https://twitter.com/BigDataBorat">@BigDataBorat</a></li>
+            <li><a href="http://blog.booking.com/is-your-ab-testing-effort-just-chasing-statistical-ghosts.html">Chasing Statistical Ghosts</a></li>
+            <li><a href="http://www.evanmiller.org/how-not-to-run-an-ab-test.html">How Not To Run an AB Test</a></li>
+            <li><a href="http://en.wikipedia.org/wiki/Simpson's_paradox">Simpson's Paradox</a></li>
+        </ul>
+    </div>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+    <script src="js/impress.js"></script>
+    <script src="significance/jquery-1.9.1.min.js"></script>
+    <script>
+    //impress().init();
+    var api = impress();
+    api.init();
+
+    var basket = ['caviar','soup','cola','ham','beer','chicken','tomato','beef','turkey','chili','potato','juice','milk','bread','eggs','salt','butter','cheese','wine','pepper'];
+    var basnum = 1;
+
+    $(document).ready(function() {
+        $(document).on('impress:stepenter', function(e) {
+            var currentSlide = $(e.target).attr('id');
+ 
+            if (currentSlide === 'simulation') {
+                //$("#simframe").attr("src", "significance/index.html");
+            }
+            
+            if (currentSlide === 'abtestingexample') {
+                a = 100;
+                b = 100;
+                steps = 100;
+                adjust_bars();
+            }
+        });
+    });
+    
+    function adjust_bars() {
+        a += (Math.random()*2 - 1);
+        b += (Math.random()*2 - 1);
+        if (a > 500) { a = 500;}
+        if (b > 500) { b = 500;}
+        if (a < 10) { a = 10;}
+        if (b < 10) { b = 10;}
+        $("#abtestingexample #a").height(a);
+        $("#abtestingexample #b").height(b);
+        steps--;
+        if (steps > 0) { setInterval(function() {adjust_bars()}, 100); }
+    }
+    
+    function runbasket() {
+        if (basnum == 100) { $("#basket1").text("bread"); }
+        if (basnum == 200) { $("#basket2").text("milk"); }
+        if (basnum == 300) {
+            $("#basket3").text("eggs");
+            $("#basketacc").text("> accuracy 98%");
+        }
+        ++basnum;
+        if (basnum <= 100) { $("#basket1").text(basket[Math.ceil(Math.random()*basket.length)]); }
+        if (basnum <= 200) { $("#basket2").text(basket[Math.ceil(Math.random()*basket.length)]); }
+        if (basnum <= 300) { $("#basket3").text(basket[Math.ceil(Math.random()*basket.length)]); }
+        if (basnum <= 300) { 
+            window.setTimeout('runbasket()', 25);
+        }
+        else {basnum = 1;}
+    }
+    </script>
+</body>
+</html>
